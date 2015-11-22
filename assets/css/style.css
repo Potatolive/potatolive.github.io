@@ -288,7 +288,7 @@ body {
     font-weight: 700;
 }
 
-.intro-content span {
+.intro-content .title {
     color: #6f5499;
     font-size: 85px;
     font-weight: 700;
@@ -319,7 +319,7 @@ body {
 }
 .tagline p {
     font-weight: 400;
-    font-size: 25px;
+    font-size: 16px;
     padding-left: 21px;  
 }
 .tagline .span {
