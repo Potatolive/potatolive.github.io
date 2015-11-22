@@ -162,6 +162,13 @@ $(document).ready(function () {
         },100);
     });
 
+    $('.pricing a.btn').on('click', function () {
+        $('.service-page').fadeOut(1200);
+        $('.contact-page').fadeIn(1200);
+        setTimeout(function(){
+            google.maps.event.trigger(map,'resize');
+        },100);
+    });
 
     // Close Button, Hide Menu
 
