@@ -290,7 +290,7 @@ body {
 
 .intro-content .title {
     color: #ffcc00;
-    font-size: 85px;
+    font-size: 60px;
     font-weight: 700;
     line-height: 0px;
     letter-spacing: 1px;
@@ -299,11 +299,11 @@ body {
 
 .intro-content .titleLIVE {
     color: #ff0000;
-    font-size: 75px;
+    font-size: 50px;
     font-weight: 700;
     line-height: 0px;
     letter-spacing: 0.1px;
-    margin-left: 1px;
+    margin-left: 0.5px;
 }
 .intro-content span.number {
     font-size: 15em;
@@ -703,11 +703,8 @@ body {
 .project {
     width: 100%;
     overflow: hidden;
-    margin: 15px 0;
+    margin: 1px 0;
     position: relative;
-    -webkit-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
-    -moz-box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
-    box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, 0.3);
 }
 
 .project img {
