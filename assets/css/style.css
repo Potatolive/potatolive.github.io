@@ -299,11 +299,11 @@ body {
 
 .intro-content .titleLIVE {
     color: #ff0000;
-    font-size: 70px;
+    font-size: 75px;
     font-weight: 700;
     line-height: 0px;
     letter-spacing: 0.1px;
-    margin-left: 10px;
+    margin-left: 1px;
 }
 .intro-content span.number {
     font-size: 15em;
