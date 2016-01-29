@@ -265,7 +265,7 @@ body {
 }
 
 .intro-content {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Raleway', serif;
     position: relative;
     z-index: 10;
     top: 35%;
@@ -281,7 +281,7 @@ body {
 .intro-content h1 {
     color: #4b4b4b;
     display: block;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Raleway', serif;
     margin-left: 20px;
     margin-bottom: -15px;
     font-size: 35px;
