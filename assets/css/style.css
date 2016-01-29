@@ -297,6 +297,14 @@ body {
     margin-left: 20px;
 }
 
+.intro-content .titleLIVE {
+    color: #cc0000;
+    font-size: 85px;
+    font-weight: 700;
+    line-height: 0px;
+    letter-spacing: 1px;
+    margin-left: 20px;
+}
 .intro-content span.number {
     font-size: 15em;
 }
