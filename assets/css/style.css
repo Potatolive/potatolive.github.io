@@ -298,12 +298,12 @@ body {
 }
 
 .intro-content .titleLIVE {
-    color: #cc0000;
-    font-size: 85px;
+    color: #ff0000;
+    font-size: 60px;
     font-weight: 700;
     line-height: 0px;
-    letter-spacing: 1px;
-    margin-left: 20px;
+    letter-spacing: 0px;
+    margin-left: 0px;
 }
 .intro-content span.number {
     font-size: 15em;
