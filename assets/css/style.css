@@ -195,7 +195,7 @@ h2.small-heading::after {
     position: absolute;
     font-family: 'FontAwesome';
     font-size: 35px;
-    content: "\f107";
+    content: "";
     left: 48%;
     bottom: -28px;
     color: #073a63;
@@ -228,6 +228,17 @@ body {
                       ---------------------*/
 
 /* ( a ) Homepage */
+#im {
+     margin: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 999;
+    max-height: 80%;
+    width: 60%
+}
 
 .home-page {
     width: 100vw;
@@ -246,12 +257,14 @@ body {
     padding: 0;
     overflow: hidden;
     position: relative;
+    background: rgba(149, 135, 92, 0.2);
 }
 
 .introduction img {
     position: absolute;
     top: 0;
     left: 0;
+    float: left;
 }
 
 .mask {
@@ -335,6 +348,11 @@ body {
     font-size: 30px;   
 }
 
+.icon{
+    width: 100%;
+    position: absolute;
+    height: 100%;
+}
 .social-media a {
     color: #4b4b4b;
     text-decoration: none;
@@ -460,6 +478,7 @@ body {
     right: 3%;
     top: 30px;
     background-size: cover;
+    display: none;
 }
 
                     /*-------------------------------------------------
@@ -530,6 +549,9 @@ body {
     position: relative;
     padding: 0;
     background: #ffffff;
+    min-height: 100%;
+    margin: 0 auto -60px;
+    padding: 0 0 60px;
 }
 
                     /*------------------
@@ -657,7 +679,7 @@ body {
 /* ( a ) Portfolio Section */
 
 .portfolio-page .image-container {
-    background: url(../img/portfolio_featured.png);
+    background: url(../img/about_us_featured.png);
     background-size: cover;
     background-position: bottom;
 }
@@ -849,7 +871,7 @@ body {
                     =======================================*/
 
 .service-page .image-container {
-    background: url(../img/service_featured.png);
+    background: url(../img/about_us_featured.png);
     background-size: cover;
     background-position: bottom;
 }
@@ -1147,7 +1169,7 @@ body {
 
 
 .contact-page .image-container {
-    background: url(../img/contact_featured.png);
+    background: url(../img/about_us_featured.png);
     background-size: cover;
     background-position: bottom;
 }
@@ -1197,19 +1219,19 @@ input#cfsubmit:hover {
 }
 
 .profile-page .footer {
-    background-color: #01213B;
+    background-color: rgba(142, 127, 83, 0.43);
 }
 
 .portfolio-page .footer {
-    background-color: #004824;
+    background-color: rgba(142, 127, 83, 0.43);
 }
 
 .service-page .footer {
-    background-color: #761616;
+    background-color: rgba(142, 127, 83, 0.43);
 }
 
 .contact-page .footer {
-    background-color: #935B25;
+    background-color: rgba(142, 127, 83, 0.43);
 }
 
 .footer .copyright {
@@ -1277,7 +1299,7 @@ input#cfsubmit:hover {
     .introduction {
         text-align: center;
         z-index: 9999;
-        background-color: #fff;
+        background-color: rgba(149, 135, 92, 0.2);
     }
 
     .intro-content {
@@ -1317,7 +1339,7 @@ input#cfsubmit:hover {
     margin: 0px;
     padding: 0px;
     position: relative;
-    top: 90px;
+    top: 10px;
     height: auto;
     max-width: auto;
     overflow-y: hidden;
@@ -1327,6 +1349,7 @@ input#cfsubmit:hover {
     }
     .social-logo img{
         padding: 18px;
+        position: relative;
     }
 
     .close-btn {
@@ -1346,4 +1369,11 @@ input#cfsubmit:hover {
     .rowteam{
         padding-left: 30px;
     }
+}
+.limit{
+    width: 60% !important;
+    height: auto !important;
+    padding-left: 25%;
+    margin-left: 10%;
+    margin-top: 30%;
 }

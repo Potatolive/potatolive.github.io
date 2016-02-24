@@ -142,6 +142,9 @@ $(document).ready(function () {
                 });
             });
         }, 100);
+        $('.close-btn').css({
+            display: 'block'
+        });
     });
 
     $('.menu div.portfolio-btn').on('click', function () {
@@ -149,10 +152,16 @@ $(document).ready(function () {
         setTimeout(function(){
             $('#projects').mixItUp();
         }, 100);
+        $('.close-btn').css({
+            display: 'block'
+        });
     });
 
     $('.menu div.service-btn').on('click', function () {
         $('.service-page').fadeIn(1200);
+        $('.close-btn').css({
+            display: 'block'
+        });
     });
 
     $('.menu div.contact-btn').on('click', function () {
@@ -160,6 +169,9 @@ $(document).ready(function () {
         setTimeout(function(){
             google.maps.event.trigger(map,'resize');
         },100);
+        $('.close-btn').css({
+            display: 'block'
+        });
     });
 
     $('.pricing a.btn').on('click', function () {
@@ -176,10 +188,14 @@ $(document).ready(function () {
         $('.home-page').css({
             visibility: 'visible'
         });
+
         $('.introduction, .menu').animate({
             left: 0
         }, 1000, 'easeOutQuart');
         $('.profile-page, .portfolio-page, .service-page, .contact-page').fadeOut(800);
+        $('.close-btn').css({
+            display: 'none'
+        });
     });
 
     /*  ----------------------------------------
