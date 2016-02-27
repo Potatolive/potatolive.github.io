@@ -237,7 +237,45 @@ $(document).ready(function () {
         });
     });
 
-
+ $(function(){
+    $(window).scroll(function() {
+    var device = {
+            is_android: function() {
+                return navigator.userAgent.match(/Android/i);
+            },
+            is_blackberry: function() {
+                return navigator.userAgent.match(/BlackBerry/i);
+            },
+            is_iphone: function() {
+                return navigator.userAgent.match(/iPhone/i);
+            },
+            is_ipad: function() {
+                return navigator.userAgent.match(/iPad/i);
+            },
+            is_ipod: function() {
+                return navigator.userAgent.match(/iPod/i);
+            },
+            is_ios: function() {
+                return navigator.userAgent.match(/iPhone|iPad|iPod/i);
+            },
+            is_windows_phone: function() {
+                return navigator.userAgent.match(/IEMobile/i);
+            },
+            is_mobile: function() {
+                return (device.is_android() || device.is_blackberry() || device.is_iphone() || device.is_ipod() || device.is_windows_phone() );
+            }
+ 
+        };  
+        if(device.is_mobile()){
+            console.log("Ipad");
+            $('#service-page-footer').toggle($(document).scrollTop() > 250);
+        }          
+        else
+        {
+            $('#service-page-footer').toggle($(document).scrollTop() > 10);
+        }
+        });
+    })
     
 
 });
