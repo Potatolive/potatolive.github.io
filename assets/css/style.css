@@ -506,6 +506,12 @@ body {
     overflow-x: hidden;
 }
 
+.profile-page,
+.portfolio-page,
+.contact-page{
+    overflow-y: hidden;
+}
+
 .image-container {
     height: 100vh;
     position: fixed;
