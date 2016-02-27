@@ -64,6 +64,7 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,100,300,500);
 @import url(https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0-rc2/css/bootstrap-glyphicons.css");
 
                     /*----------------------
                        2 ) Preloader Styles
@@ -218,7 +219,9 @@ h3 {
     font-size: 2.25em;
     font-weight: 400;
 }
-
+html {
+    overflow-x: hidden;
+}
 body {
     overflow-x: hidden;
 }
@@ -500,6 +503,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
+    overflow-x: hidden;
 }
 
 .image-container {
@@ -550,8 +554,8 @@ body {
     padding: 0;
     background: #ffffff;
     min-height: 100%;
-    margin: 0 auto -60px;
-    padding: 0 0 60px;
+    margin: 0 auto -50px;
+    padding: 0 0 100px;
 }
 
                     /*------------------
@@ -1255,7 +1259,7 @@ input#cfsubmit:hover {
 }
 
 .contact-page .footer a {
-    color: #F1AD5C;
+    color: #5F9EA0;
 }
 
 .footer a:hover {
@@ -1343,7 +1347,7 @@ input#cfsubmit:hover {
     height: auto;
     max-width: auto;
     overflow-y: hidden;
-    overflow-x:auto;
+    overflow-x:hidden;
     word-wrap:normal;
     white-space:nowrap;
     }
@@ -1376,4 +1380,14 @@ input#cfsubmit:hover {
     padding-left: 25%;
     margin-left: 10%;
     margin-top: 30%;
+}
+
+.text-wrap{
+    word-wrap: normal;
+    white-space: normal;
+}
+
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
 }
