@@ -1401,3 +1401,7 @@ input#cfsubmit:hover {
 #service-page-footer{
     display: none;
 }
+
+.service-desc p {
+    font-size: 17px;
+}
